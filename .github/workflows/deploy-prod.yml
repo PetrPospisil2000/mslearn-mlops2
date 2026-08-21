@@ -61,7 +61,7 @@ jobs:
 
           # unique, deterministic, region-safe name
           # SUFFIX="${WS_NAME#mlw-ai300-l}"
-          SUFFIX = "230378945"
+          SUFFIX="230378945"
           ENDPOINT_NAME="diabetes-endpoint-${SUFFIX:0:8}"
 
           echo "resource_group=$RG_NAME" >> "$GITHUB_OUTPUT"
